@@ -47,7 +47,7 @@ Samy discovered that only the `http://www.myspace.com` domain would accept his A
 
 Over the course of the next day, over a million people unwittingly installed Samy's code into their MySpace profile pages and invited their friends. The load of friend requests on MySpace was so large that the site buckled and shut down. It took them two hours to remove Samy's code and patch the security holes he exploited. Samy was raided by the United States secret service and sentenced to do 90 days of community service.
 
-This is the power of installing a little bit of JavaScript on someone else's website. It is called cross site scripting, and its effects can be devastating. It is suspected that cross-site scripting was to blame for the [2018 British Airways breach](https://www.wired.com/story/british-airways-hack-details/) that leaked the credit card details of 380,000 people.
+This is the power of installing a little bit of JavaScript on someone else's website. It is called [cross site scripting](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)), and its effects can be devastating. It is suspected that cross-site scripting was to blame for the [2018 British Airways breach](https://www.wired.com/story/british-airways-hack-details/) that leaked the credit card details of 380,000 people.
 
 So how can you help protect yourself from cross-site scripting?
 
