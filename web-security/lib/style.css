@@ -1,0 +1,37 @@
+* {
+  font-family: "Gill Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Palatino";
+  font-weight: 200;
+}
+
+p {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+code {
+  font-family: Menlo;
+  font-size: 16px;
+  color: #000000;
+}
+
+pre code {
+  display: block;
+  font-family: Menlo;
+  border: 1px dashed #999999;
+  margin: 30px 0;
+  padding: 20px 10px;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 600px;
+}

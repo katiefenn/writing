@@ -1,0 +1,24 @@
+{
+  "name": "markdown-writing-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-include": "^2.3.1",
+    "gulp-markdown": "^1.2.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "through2": "^2.0.3"
+  }
+}
