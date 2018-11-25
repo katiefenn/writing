@@ -20,8 +20,7 @@ There aren't any official rules for developing software on the web. But if there
 
 Always ask yourself how users will send you data that isn't what it seems to be. If the nicest community of gamers playing the happiest game on earth can turn on each other, nowhere on the web is safe.
 
-<!-- TODO: Insert escaping link: https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.231_-_HTML_Escape_Before_Inserting_Untrusted_Data_into_HTML_Element_Content  -->
-Make sure you validate user input to make sure it's of the correct _type_ (e.g. string, number, JSON string) and that it's the _length_ that you were expecting. Don't forget that user input doesn't become _safe_ once it is stored in your database; any data that originates from outside your network can still be dangerous and [must be escaped]() before it is inserted into HTML.
+Make sure you validate user input to make sure it's of the correct _type_ (e.g. string, number, JSON string) and that it's the _length_ that you were expecting. Don't forget that user input doesn't become _safe_ once it is stored in your database; any data that originates from outside your network can still be dangerous and <a href="https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.231_-_HTML_Escape_Before_Inserting_Untrusted_Data_into_HTML_Element_Content">must be escaped</a> before it is inserted into HTML.
 
 Make sure to check a user's actions against what they are allowed to do. Create a clear [access control policy](https://www.owasp.org/index.php/Access_Control_Cheat_Sheet) that defines what actions a user may take, and to whose data they are allowed access to. For example, a newly-registered user should not be allowed to change the user profile of a web forum's owner.
 
@@ -35,7 +34,6 @@ One day, I noticed people were acting strangely. Users were being uncharacterist
 It turns out someone had discovered a way of logging in to any other user account, using a secret password that allowed them to do literally anything they wanted. What was this password that granted untold power to those who wielded it?
 
 `' OR '1'='1`
-<!-- TODO: Insert screenshot of a login form -->
 
 [SQL](https://en.wikipedia.org/wiki/SQL) is a computer language that is used to query databases. When you fill out a login form, just like the one above, your username and your password are usually inserted into an SQL query like this:
 

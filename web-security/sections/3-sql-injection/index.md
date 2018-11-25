@@ -6,7 +6,6 @@ One day, I noticed people were acting strangely. Users were being uncharacterist
 It turns out someone had discovered a way of logging in to any other user account, using a secret password that allowed them to do literally anything they wanted. What was this password that granted untold power to those who wielded it?
 
 `' OR '1'='1`
-<!-- TODO: Insert screenshot of a login form -->
 
 [SQL](https://en.wikipedia.org/wiki/SQL) is a computer language that is used to query databases. When you fill out a login form, just like the one above, your username and your password are usually inserted into an SQL query like this:
 
